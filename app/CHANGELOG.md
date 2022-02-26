@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/jaivikas7/semantic-release-demo/compare/v1.0.0...v1.1.0) (2022-02-26)
+
+
+### Bug Fixes
+
+* update response message to match the requirement ([6a171f0](https://github.com/jaivikas7/semantic-release-demo/commit/6a171f0b193fdfca9e6bc285b56332de5eeb4d36))
+
 ## 1.0.0 (2022-02-26)
 
 
