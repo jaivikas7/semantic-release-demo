@@ -33,8 +33,11 @@ plugins:
   - successComment: ":tada:\n\nThe release is available on [this](${releases.url}) GitHub release now."
     assets: 
     - "dist/*.tgz"
-    assignees: "jaivikas7"
     releasedLabels: "released"
+    failTitle: ":rotating_light: Automated release is failing"
+    labels: ['escalated', 'semantic-release', 'priority:high']
+    assignees: "jaivikas7"
+    failComment: "@jaivikas7 - Semantic release is failing, could you review the workflow and fix it please?"
 - - "@semantic-release/git"
   - assets:
     - "package.json"
