@@ -33,4 +33,4 @@ jobs:
       - name: release all the things
         run: |
           cd app
-          npm run release
+          npx semantic-release
