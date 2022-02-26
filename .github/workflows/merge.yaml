@@ -31,4 +31,6 @@ jobs:
             ${{ runner.os }}-npm-
       - run: npm install --cache ~/.npm
       - name: release all the things
-        run: npm run release
+        run: |
+          cd app
+          npm run release
