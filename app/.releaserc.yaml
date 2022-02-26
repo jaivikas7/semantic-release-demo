@@ -27,8 +27,6 @@ plugins:
 - - "@semantic-release/npm"
   - npmPublish: false
     tarballDir: "dist"
-- - "@semantic-release/exec"
-  - prepareCmd: "exit 1"
 - - "@semantic-release/github"
   - successComment: ":tada:\n\nThe release is available on [this](${releases.url}) GitHub release now."
     assets: 
@@ -38,6 +36,8 @@ plugins:
     labels: ['escalated', 'semantic-release', 'priority:high']
     assignees: "jaivikas7"
     failComment: "@jaivikas7 - Semantic release is failing, could you review the workflow and fix it please?"
+- - "@semantic-release/exec"
+  - prepareCmd: "exit 1"
 - - "@semantic-release/git"
   - assets:
     - "package.json"
