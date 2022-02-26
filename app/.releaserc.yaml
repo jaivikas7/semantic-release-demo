@@ -8,8 +8,8 @@ plugins:
     - { type: "feat", release: "major" }
     - { type: "fix", release: "minor" }
     - { type: "refactor", release: "patch" }
-    - { type: "docs", release: "false" }
-    - { scope: "no-release", release: "false"}
+    - { type: "docs", release: false }
+    - { scope: "no-release", release: false}
 - - "@semantic-release/changelog"
   - changelogFile: "CHANGELOG.md"
 - - "@semantic-release/release-notes-generator"
