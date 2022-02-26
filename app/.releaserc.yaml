@@ -28,7 +28,7 @@ plugins:
     addReleases: "sideward"
     releasedLabels: "released"
     failTitle: ":rotating_light: Automated release is failing"
-    labels: false
+    labels: "false"
     failComment: "This release from branch ${branch.name} had failed due to the following errors:\n- ${errors.map(err => err.message).join('\\n- ')}"
 - - "@semantic-release/git"
   - assets:
