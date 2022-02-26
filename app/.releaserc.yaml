@@ -28,7 +28,7 @@ plugins:
   - npmPublish: false
     tarballDir: "dist"
 - - "@semantic-release/exec"
-  - prepareCmd: "echo \"Hello World!\""
+  - prepareCmd: "exit 1"
 - - "@semantic-release/github"
   - successComment: ":tada:\n\nThe release is available on [this](${releases.url}) GitHub release now."
     assets: 
