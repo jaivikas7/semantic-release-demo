@@ -43,4 +43,4 @@ plugins:
     - { type: "fix", release: "minor" }
     - { type: "refactor", release: "patch" }
     - { type: "docs", release: false }
-    - { scope: "no-release", release: "false"}
+    - { scope: "no-release", release: false}
