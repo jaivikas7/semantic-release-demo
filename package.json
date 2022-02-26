@@ -3,12 +3,16 @@
   "devDependencies": {
     "semantic-release": "^19.0.2",
     "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.0",
+    "@semantic-release/exec": "^6.0.3",
     "@semantic-release/changelog": "^6.0.1",
-    "conventional-changelog-conventionalcommits": "^4.6.3"
+    "conventional-changelog-conventionalcommits": "^4.6.3",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/release-notes-generator": "^10.0.3"
   },
   "scripts": {
     "clean": "rm -rf ./node_modules",
-    "release": "multi-semantic-release --execasync"
+    "release": "npx semantic-release"
   },
   "workspaces": [
     "app"
