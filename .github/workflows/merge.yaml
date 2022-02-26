@@ -17,13 +17,13 @@ env:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    # env:
-    #   GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GH_TOKEN }}
-          persist-credentials: false
+        # with:
+        #   token: ${{ secrets.GH_TOKEN }}
+        #   persist-credentials: false
       - uses: actions/setup-node@v2-beta
         with:
           node-version: ${{ env.NODE_VERSION }}
