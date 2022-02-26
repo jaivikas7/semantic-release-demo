@@ -1,0 +1,8 @@
+{
+    "name": "semantic-release-demo-app",
+    "version": "1.0.0",
+    "devDependencies": {},
+    "peerDependencies": {},
+    "optionalDependencies": {},
+    "dependencies": {}
+  }

@@ -1,0 +1,34 @@
+name: semrel-demo-merge
+
+on:
+  push:
+    branches:
+    - main
+    - alpha
+
+env:
+  NODE_VERSION: "17.x"
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          persist-credentials: false
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+      - run: npm install --cache ~/.npm
+      - name: release all the things
+        run: npm run release

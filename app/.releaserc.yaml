@@ -1,0 +1,43 @@
+branches:
+- name: "main"
+- { name: "alpha", prerelease: true }
+plugins:
+- - "@semantic-release/commit-analyzer"
+  - preset: "conventionalcommits"
+    releaseRules:
+    - { type: "feat", release: "major" }
+    - { type: "fix", release: "minor" }
+    - { type: "refactor", release: "patch" }
+    - { type: "docs", release: "false" }
+    - { scope: "no-release", release: "false"}
+- - "@semantic-release/changelog"
+  - changelogFile: "CHANGELOG.md"
+- - "@semantic-release/release-notes-generator"
+  - preset: "conventionalcommits"
+    presetConfig:
+      types:
+      - { type: "docs", hidden: true, section: "Documentation" }
+      - { type: "feat", hidden: false, section: "Features" }
+      - { type: "feature", hidden: false, section: "Features" }
+      - { type: "fix", hidden: false, section: "Bug Fixes" }
+      - { type: "style", hidden: true, section: "Styles" }
+      - { type: "refactor", hidden: false, section: "Code Refactoring" }
+      - { type: "perf", hidden: true, section: "Performance Improvements" }
+      - { type: "test", hidden: false, section: "Tests" }
+- - "@semantic-release/npm"
+  - npmPublish: false
+    tarballDir: "dist"
+- - "@semantic-release/exec"
+  - prepareCmd: "echo \"Hello World!\""
+- - "@semantic-release/github"
+  - successComment: ":tada:\n\nThe release is available on [this](${releases.url}) GitHub release now."
+    assets: 
+    - "dist/*.tgz"
+  - assignees: "jaivikas7"
+  - releasedLabels: "released"
+- - "@semantic-release/git"
+  - assets:
+    - "package.json"
+    - "package-lock.json"
+    - "CHANGELOG.md"
+    message: "chore(release): semantic-release-demo ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
