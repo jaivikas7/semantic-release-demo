@@ -1,3 +1,11 @@
+## semantic-release-demo-app [1.3.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.2.0...semantic-release-demo-app@1.3.0) (2022-02-26)
+
+
+### Bug Fixes
+
+* make semrel work again ([60a3b9b](https://github.com/jaivikas7/semantic-release-demo/commit/60a3b9b42458bd8fe2fc104f2316093bd6b39742))
+* who said mistakes were easy? :smirking_face: ([2e9f866](https://github.com/jaivikas7/semantic-release-demo/commit/2e9f8665de269cd1b08e8e8b1f0568ce23bfb16f))
+
 ## semantic-release-demo-app [1.2.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.1.0...semantic-release-demo-app@1.2.0) (2022-02-26)
 
 
