@@ -1,3 +1,18 @@
+## semantic-release-demo-app [1.1.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.0.1...semantic-release-demo-app@1.1.0) (2022-02-26)
+
+
+### Bug Fixes
+
+* introduce proper error ([afd5b78](https://github.com/jaivikas7/semantic-release-demo/commit/afd5b7866b2f2356023a252baaed9d172836582a))
+* refine sem-rel flow ([269949a](https://github.com/jaivikas7/semantic-release-demo/commit/269949a58ac5dc5128d34537ef26d37db23b4b9d))
+* some updates to failure scenario ([987f973](https://github.com/jaivikas7/semantic-release-demo/commit/987f9739df93cd2c28309a511f46b46139e27e4a))
+
+
+### Code Refactoring
+
+* update reponse message as per AC ([b036f72](https://github.com/jaivikas7/semantic-release-demo/commit/b036f724cf7ecff8549d1efe774e7638811ece95))
+* update sem-rel config to improve error-catching ([438c742](https://github.com/jaivikas7/semantic-release-demo/commit/438c742a42eac4401007df7ec499b5a032d8724d))
+
 ### semantic-release-demo-app [1.0.1](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.0.0...semantic-release-demo-app@1.0.1) (2022-02-26)
 
 
