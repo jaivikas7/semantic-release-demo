@@ -1,3 +1,10 @@
+## semantic-release-demo-app [1.6.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.5.0...semantic-release-demo-app@1.6.0) (2022-02-26)
+
+
+### Bug Fixes
+
+* make semver fail ([9e5d5f0](https://github.com/jaivikas7/semantic-release-demo/commit/9e5d5f0dd88692eed531651ab9d1d05030837ada))
+
 ## semantic-release-demo-app [1.5.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.4.0...semantic-release-demo-app@1.5.0) (2022-02-26)
 
 
