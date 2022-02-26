@@ -25,7 +25,7 @@ plugins:
   - successComment: ":tada:\n\nThe release is available on [this](${releases.url}) GitHub release now."
     assets: 
     - "dist/*.tgz"
-    releasedLabedls: "released"
+    releasedLabels: "released"
     failTitle: ":rotating_light: Automated release is failing"
     labels: ['escalated', 'semantic-release', 'priority:high']
     assignees: "jaivikas7"
