@@ -1,3 +1,10 @@
+## semantic-release-demo-app [1.5.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.4.0...semantic-release-demo-app@1.5.0) (2022-02-26)
+
+
+### Bug Fixes
+
+* please sem-rel fail to work and throw me an issue ([d514c0e](https://github.com/jaivikas7/semantic-release-demo/commit/d514c0e565bd9ff941442997ded13494903a9672))
+
 ## semantic-release-demo-app [1.4.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.3.0...semantic-release-demo-app@1.4.0) (2022-02-26)
 
 
