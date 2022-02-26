@@ -1,3 +1,10 @@
+## semantic-release-demo-app [1.10.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.9.0...semantic-release-demo-app@1.10.0) (2022-02-26)
+
+
+### Bug Fixes
+
+* break please ([6a32495](https://github.com/jaivikas7/semantic-release-demo/commit/6a32495ac92b0ca1dfc09b93d06034cff0b4af27))
+
 ## semantic-release-demo-app [1.9.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.8.0...semantic-release-demo-app@1.9.0) (2022-02-26)
 
 
