@@ -1,3 +1,10 @@
+## semantic-release-demo-app [1.8.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.7.0...semantic-release-demo-app@1.8.0) (2022-02-26)
+
+
+### Bug Fixes
+
+* this time you ought to fail Mr.SemRel ([ac73d88](https://github.com/jaivikas7/semantic-release-demo/commit/ac73d883f7e3e3bc02d5f6ca43e8a1add0606608))
+
 ## semantic-release-demo-app [1.7.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.6.0...semantic-release-demo-app@1.7.0) (2022-02-26)
 
 
