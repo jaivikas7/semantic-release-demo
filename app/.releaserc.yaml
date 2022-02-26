@@ -27,9 +27,8 @@ plugins:
     - "dist/*.tgz"
     releasedLabels: "released"
     failTitle: ":rotating_light: Automated release is failing"
-    labels: ['escalated', 'semantic-release', 'priority:high']
-    assignees: "jaivikas7"
-    failComment: "@jaivikas7 - Semantic release is failing, could you review the workflow and fix it please?"
+    labels: false
+    failComment: "This release from branch ${branch.name} had failed due to the following errors:\n- ${errors.map(err => err.message).join('\\n- ')}"
 - - "@semantic-release/git"
   - assets:
     - "package.json"
