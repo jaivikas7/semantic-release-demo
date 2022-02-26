@@ -39,8 +39,8 @@ plugins:
     assignees: "jaivikas7"
     failComment: "@jaivikas7 - Semantic release is failing, could you review the workflow and fix it please?"
 - - "@semantic-release/git"
-  - asset:
+  - assedts:
     - "package.json"
     - "package-lock.json"
     - "CHANGELOG.md"
-    message: "chore(release): semantic-release-demo ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+    messaged: "chore(release): semantic-release-demo ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
