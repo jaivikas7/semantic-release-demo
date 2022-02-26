@@ -28,7 +28,7 @@ plugins:
   - npmPublish: false
     tarballDir: "dist"
 - - "@semantic-release/exec"
-  - prepareCmd: "exit 1"
+  - prepareCmd: "echo \"Hello again!\""
 - - "@semantic-release/github"
   - successComment: ":tada:\n\nThe release is available on [this](${releases.url}) GitHub release now."
     assets: 
@@ -36,7 +36,7 @@ plugins:
     assignees: "jaivikas7"
     releasedLabels: "released"
 - - "@semantic-release/git"
-  - assets:
+  - asset:
     - "package.json"
     - "package-lock.json"
     - "CHANGELOG.md"
