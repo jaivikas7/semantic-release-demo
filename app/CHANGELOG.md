@@ -1,3 +1,10 @@
+## semantic-release-demo-app [1.4.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.3.0...semantic-release-demo-app@1.4.0) (2022-02-26)
+
+
+### Bug Fixes
+
+* make github sem-rel plugin to fail ([6674e33](https://github.com/jaivikas7/semantic-release-demo/commit/6674e33c66509d72325c183e9aad4572f47037fe))
+
 ## semantic-release-demo-app [1.3.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.2.0...semantic-release-demo-app@1.3.0) (2022-02-26)
 
 
