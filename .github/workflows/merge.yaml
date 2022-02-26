@@ -6,6 +6,11 @@ on:
     - main
     - alpha
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
 env:
   NODE_VERSION: "17.x"
 
@@ -13,7 +18,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      # GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - uses: actions/checkout@v2
         with:
