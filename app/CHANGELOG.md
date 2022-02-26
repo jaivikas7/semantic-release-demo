@@ -1,3 +1,10 @@
+## semantic-release-demo-app [1.11.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.10.0...semantic-release-demo-app@1.11.0) (2022-02-26)
+
+
+### Bug Fixes
+
+* Force release ([ef14244](https://github.com/jaivikas7/semantic-release-demo/commit/ef14244216236ce34f77701b5fdc70fba4a34893))
+
 ## semantic-release-demo-app [1.10.0](https://github.com/jaivikas7/semantic-release-demo/compare/semantic-release-demo-app@1.9.0...semantic-release-demo-app@1.10.0) (2022-02-26)
 
 
