@@ -22,7 +22,7 @@ plugins:
 - - "@semantic-release/exec"
   - prepareCmd: "echo \"Hello again!\""
 - - "@semantic-release/github"
-  - successComment: ":tada:\n\nThe release is available on [this](${releases.url}) GitHub release now."
+  - successComment: true
     assets: 
     - "dist/*.tgz"
     addReleases: "bottom"
