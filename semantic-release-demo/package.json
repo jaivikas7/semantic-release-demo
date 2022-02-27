@@ -16,6 +16,6 @@
     "release": "multi-semantic-release --execasync"
   },
   "workspaces": [
-    "app"
+    "semantic-release-demo/app"
   ]
 }
