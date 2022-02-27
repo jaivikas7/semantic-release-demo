@@ -15,9 +15,18 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     permissions:
-      contents: none
-      pull-requests: none
+      actions: read
+      contents: read
+      deployments: read
+      id-token: none
       issues: write
+      discussions: read
+      packages: none
+      pages: none
+      pull-requests: none
+      repository-projects: none
+      security-events: none
+      statuses: read
     env:
       GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
