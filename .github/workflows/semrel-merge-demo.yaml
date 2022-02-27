@@ -35,7 +35,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-npm-
       - run: |
-        cd semantic-release-demo
-        npm install --cache ~/.npm
+          cd semantic-release-demo
+          npm install --cache ~/.npm
       - name: release all the things
         run: npm run release
