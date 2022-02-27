@@ -39,7 +39,5 @@ jobs:
           npm install --cache ~/.npm
       - name: release all the things
         run: |
-          pwd
           cd semantic-release-demo
-          pwd
           npm run release
