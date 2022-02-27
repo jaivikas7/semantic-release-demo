@@ -5,6 +5,8 @@ on:
     branches:
     - main
     - alpha
+    paths:
+    - 'semantic-release-demo/**'
 
 env:
   NODE_VERSION: "17.x"
@@ -32,6 +34,8 @@ jobs:
           key: ${{ runner.os }}-npm-${{ hashFiles('**/package.json') }}
           restore-keys: |
             ${{ runner.os }}-npm-
-      - run: npm install --cache ~/.npm
+      - run: |
+        cd semantic-release-demo
+        npm install --cache ~/.npm
       - name: release all the things
         run: npm run release
